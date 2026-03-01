@@ -87,3 +87,25 @@ skill({ name: "async-python-patterns" })
 ## Migration Notes
 
 These agents and skills were converted from the Claude Code plugins system. The original project is available at: https://github.com/wshobson/agents
+
+## Commit Message Convention
+
+All commit messages must follow the **Conventional Commits** format:
+
+```
+<type>(scope): <short description>
+
+[body(s)]
+
+[optional footer]
+```
+
+**Allowed Types:**
+
+- `feat`: A new feature
+- `fix`: A bug fix
+- `refactor`: Code changes that neither fix a bug nor add a feature
+- `chore`: Routine tasks, build process, or auxiliary tool changes
+- `docs`: Documentation updates
+- `style`: Code style changes (e.g., formatting, missing semicolons)
+- `test`: Adding or updating tests
